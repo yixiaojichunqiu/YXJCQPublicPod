@@ -2,6 +2,6 @@
 class yxjcq
 {
     func test() {
-        print("123")
+        print("1234")
     }
 }

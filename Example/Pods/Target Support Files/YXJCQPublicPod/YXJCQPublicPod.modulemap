@@ -1,0 +1,6 @@
+framework module YXJCQPublicPod {
+  umbrella header "YXJCQPublicPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,27 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - PublicPod (0.1.0)
+  - YXJCQPublicPod (0.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
-  - PublicPod (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - FBSnapshotTestCase
+  - YXJCQPublicPod (from `../`)
 
 EXTERNAL SOURCES:
-  PublicPod:
+  YXJCQPublicPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  PublicPod: f8afde5922b1482cbd2612b6d929071430228acd
+  YXJCQPublicPod: 847776412b6ab60337a5667601d9d512810dc4f8
 
-PODFILE CHECKSUM: 96de567d8373caa382734f8cb1e2281eaf9863be
+PODFILE CHECKSUM: dc456c1df72ebbcb925520f153a6ddbd65f0a607
 
 COCOAPODS: 1.6.1
