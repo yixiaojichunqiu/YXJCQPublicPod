@@ -30,7 +30,7 @@
 		CFA869102744DB995F3AC930E96E3AFF /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */; };
 		D157E583EB004E5BF9FDFC180FCB7789 /* Pods-PublicPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A547CCD4812B7AFC670DCB1B99D722D /* Pods-PublicPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D428498A1A70F3DB2F9D9C921989E6B8 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */; };
-		D56F5F7C7CBA8F824A12F6E466488D82 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E6C8B5CE428B81B1AF608DAAA1A84B /* ReplaceMe.swift */; };
+		D56F5F7C7CBA8F824A12F6E466488D82 /* YXJCQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E6C8B5CE428B81B1AF608DAAA1A84B /* YXJCQ.swift */; };
 		D6B1B0AC7F376A0FC6DADEEAA737E508 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DBADABF56FC0675DEE45B90CE6AFA4E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */; };
 		E3B86D234BC43FB8877126BFDD760867 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */; };
@@ -67,7 +67,7 @@
 /* Begin PBXFileReference section */
 		007D52BC36A48FDFF06EB70A77016A18 /* Pods-PublicPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PublicPod_Example.modulemap"; sourceTree = "<group>"; };
 		05734EA760D464EE6F6CB085C52CB063 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		0BBCAD498DCDD786F1124014D5A86390 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBCAD498DCDD786F1124014D5A86390 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F5A471D3272C1FF116CA4F8BF040F2 /* Pods-PublicPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PublicPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1A1623D960F2F812EDF5F25DEFE6D894 /* Pods-PublicPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PublicPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
@@ -79,11 +79,11 @@
 		3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3DB1E3BE664A1FB5DC0D2EDB62CABEE2 /* Pods-PublicPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PublicPod_Example-Info.plist"; sourceTree = "<group>"; };
 		413119272B7A02FE483A647DFC91DB60 /* Pods-PublicPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PublicPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		483DF6FBC0FBF780085E703D6B5345AB /* Pods_PublicPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PublicPod_Example.framework; path = "Pods-PublicPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		483DF6FBC0FBF780085E703D6B5345AB /* Pods_PublicPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PublicPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4FB23A7A321BFD09B0985E94534A5272 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		5EA7FE3A78A86E0B5EB0007D6F24E3B2 /* Pods-PublicPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PublicPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		66149FEB22FE82C503B9B44E7CA51854 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		66149FEB22FE82C503B9B44E7CA51854 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		67AB3AE43E7AEAF9F555DB32BF9C0BDB /* PublicPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PublicPod-Info.plist"; sourceTree = "<group>"; };
 		6ABAF3181A09BC41541A7F2BB7F2E27B /* Pods-PublicPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PublicPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		79122161B2B638A6F994DCFD9799B62A /* PublicPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PublicPod.modulemap; sourceTree = "<group>"; };
@@ -91,20 +91,20 @@
 		7E598EA85FAF39ACA9B89D6177D1A61A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8195A0B619799C06006A330C35C01551 /* Pods-PublicPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PublicPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		841F562A950BC3B0D9DB87C857D478D7 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		84D1E71466347760F21814A8397F0E34 /* PublicPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PublicPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84D1E71466347760F21814A8397F0E34 /* PublicPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PublicPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8F2C909549C4DFB280B4EF09A8DCF598 /* Pods-PublicPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PublicPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		912F5BE09296F333F87046761D662D18 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		93D8F0462EAD90167351230D7DD96A21 /* Pods-PublicPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PublicPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1DB66BABDE59E5B326284AAD222B6B9 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		A20BCBF2607EB960FC083C340CD6A502 /* Pods-PublicPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PublicPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		AEDFFC3B15BAE8F9D8ECFA27687C1AA0 /* Pods-PublicPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PublicPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		B0E9557FC3151151307E7D3A2E7C1C7D /* PublicPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PublicPod.xcconfig; sourceTree = "<group>"; };
 		B611EAB7F7AC5135D6E65CAF0C2688BA /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		B8E6C8B5CE428B81B1AF608DAAA1A84B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PublicPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B8E6C8B5CE428B81B1AF608DAAA1A84B /* YXJCQ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YXJCQ.swift; path = PublicPod/Classes/YXJCQ.swift; sourceTree = "<group>"; };
 		C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		C3FB5D637CA8F60B2B16F9375DFCA3FE /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		CBE4EA1756325767F72616D3CD687833 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
@@ -119,9 +119,9 @@
 		E6942863E4F9C7B25B068D635E73BFD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		EF5C7C8B1F553296C78495F0D00AFF06 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		F1A195144A9D16F60558E37340674F2F /* Pods-PublicPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PublicPod_Tests.modulemap"; sourceTree = "<group>"; };
-		F1F9EB55776BCADA469A14392A4359B2 /* Pods_PublicPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PublicPod_Tests.framework; path = "Pods-PublicPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4862520CAC2E3D567D0A24EDD9653B0 /* PublicPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PublicPod.framework; path = PublicPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F53AB72540138BCEC31B3FB3EECAF075 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F1F9EB55776BCADA469A14392A4359B2 /* Pods_PublicPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PublicPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4862520CAC2E3D567D0A24EDD9653B0 /* PublicPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PublicPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53AB72540138BCEC31B3FB3EECAF075 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FE05DAD5186CEC183AAD0BC4D2F6297C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -231,7 +231,7 @@
 		B36AE0B5D0DE6C26CB01C20AEAC6FD10 /* PublicPod */ = {
 			isa = PBXGroup;
 			children = (
-				B8E6C8B5CE428B81B1AF608DAAA1A84B /* ReplaceMe.swift */,
+				B8E6C8B5CE428B81B1AF608DAAA1A84B /* YXJCQ.swift */,
 				E74ACDEEC5CDEAD90427E740064446F3 /* Pod */,
 				1DB7771905A07666B9B690E003D4C57A /* Support Files */,
 			);
@@ -283,7 +283,6 @@
 				16B8D657ED78864429DA904F420CBF27 /* Support Files */,
 				31214CF30AD1249E16ADFD0923DD4FD4 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -488,6 +487,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -548,7 +548,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F536495ED4F064ABB4D03ECDAB5D74F4 /* PublicPod-dummy.m in Sources */,
-				D56F5F7C7CBA8F824A12F6E466488D82 /* ReplaceMe.swift in Sources */,
+				D56F5F7C7CBA8F824A12F6E466488D82 /* YXJCQ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,8 +977,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
