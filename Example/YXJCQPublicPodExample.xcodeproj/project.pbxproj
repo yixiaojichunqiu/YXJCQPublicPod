@@ -3,28 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F90777827451C4500603302 /* Pods_YXJCQPublicPodExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F90777727451C4500603302 /* Pods_YXJCQPublicPodExample.framework */; };
+		7F90777927451C4500603302 /* Pods_YXJCQPublicPodExample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7F90777727451C4500603302 /* Pods_YXJCQPublicPodExample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7FBAF87C224B7DDB007A4FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBAF87B224B7DDB007A4FCE /* AppDelegate.swift */; };
 		7FBAF87E224B7DDB007A4FCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBAF87D224B7DDB007A4FCE /* ViewController.swift */; };
 		7FBAF881224B7DDB007A4FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FBAF87F224B7DDB007A4FCE /* Main.storyboard */; };
 		7FBAF883224B7DDE007A4FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FBAF882224B7DDE007A4FCE /* Assets.xcassets */; };
 		7FBAF886224B7DDE007A4FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FBAF884224B7DDE007A4FCE /* LaunchScreen.storyboard */; };
-		DBDBFA35542BF3F20A9F7BEF /* Pods_YXJCQPublicPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5B98BA651360ADB6362250 /* Pods_YXJCQPublicPod.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7F90777A27451C4600603302 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7F90777927451C4500603302 /* Pods_YXJCQPublicPodExample.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		72E9DFF299EF368AEFC98412 /* Pods-YXJCQPublicPodExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJCQPublicPodExample.release.xcconfig"; path = "Target Support Files/Pods-YXJCQPublicPodExample/Pods-YXJCQPublicPodExample.release.xcconfig"; sourceTree = "<group>"; };
 		774B415D325BE4EEF1CE7FCC /* Pods-YXJCQPublicPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJCQPublicPod.debug.xcconfig"; path = "Target Support Files/Pods-YXJCQPublicPod/Pods-YXJCQPublicPod.debug.xcconfig"; sourceTree = "<group>"; };
-		7FBAF878224B7DDB007A4FCE /* YXJCQPublicPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXJCQPublicPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F907773274513F600603302 /* Pods_YXJCQPublicPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_YXJCQPublicPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F90777727451C4500603302 /* Pods_YXJCQPublicPodExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_YXJCQPublicPodExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FBAF878224B7DDB007A4FCE /* YXJCQPublicPodExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXJCQPublicPodExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBAF87B224B7DDB007A4FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FBAF87D224B7DDB007A4FCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7FBAF880224B7DDB007A4FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FBAF882224B7DDE007A4FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FBAF885224B7DDE007A4FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FBAF887224B7DDE007A4FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B5B98BA651360ADB6362250 /* Pods_YXJCQPublicPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXJCQPublicPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C6095B0F90067124E04A48 /* Pods-YXJCQPublicPodExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJCQPublicPodExample.debug.xcconfig"; path = "Target Support Files/Pods-YXJCQPublicPodExample/Pods-YXJCQPublicPodExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D3C52DAA0AC8AC97D32C3C19 /* Pods_YXJCQPublicPodExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXJCQPublicPodExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6236D548D60714C50EF7451 /* Pods-YXJCQPublicPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJCQPublicPod.release.xcconfig"; path = "Target Support Files/Pods-YXJCQPublicPod/Pods-YXJCQPublicPod.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBDBFA35542BF3F20A9F7BEF /* Pods_YXJCQPublicPod.framework in Frameworks */,
+				7F90777827451C4500603302 /* Pods_YXJCQPublicPodExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,38 +64,49 @@
 			children = (
 				774B415D325BE4EEF1CE7FCC /* Pods-YXJCQPublicPod.debug.xcconfig */,
 				F6236D548D60714C50EF7451 /* Pods-YXJCQPublicPod.release.xcconfig */,
+				92C6095B0F90067124E04A48 /* Pods-YXJCQPublicPodExample.debug.xcconfig */,
+				72E9DFF299EF368AEFC98412 /* Pods-YXJCQPublicPodExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		7EC696FD28540FF3C3EAF9EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B5B98BA651360ADB6362250 /* Pods_YXJCQPublicPod.framework */,
+				7F90777727451C4500603302 /* Pods_YXJCQPublicPodExample.framework */,
+				D3C52DAA0AC8AC97D32C3C19 /* Pods_YXJCQPublicPodExample.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F90777627451B8300603302 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				7F907773274513F600603302 /* Pods_YXJCQPublicPod.framework */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		7FBAF86F224B7DDA007A4FCE = {
 			isa = PBXGroup;
 			children = (
-				7FBAF87A224B7DDB007A4FCE /* YXJCQPublicPod */,
+				7FBAF87A224B7DDB007A4FCE /* YXJCQPublicPodExample */,
 				7FBAF879224B7DDB007A4FCE /* Products */,
 				6B7A8A9E1A486294CEC7B7D7 /* Pods */,
 				7EC696FD28540FF3C3EAF9EF /* Frameworks */,
+				7F90777627451B8300603302 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
 		7FBAF879224B7DDB007A4FCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FBAF878224B7DDB007A4FCE /* YXJCQPublicPod.app */,
+				7FBAF878224B7DDB007A4FCE /* YXJCQPublicPodExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FBAF87A224B7DDB007A4FCE /* YXJCQPublicPod */ = {
+		7FBAF87A224B7DDB007A4FCE /* YXJCQPublicPodExample */ = {
 			isa = PBXGroup;
 			children = (
 				7FBAF87B224B7DDB007A4FCE /* AppDelegate.swift */,
@@ -86,29 +116,30 @@
 				7FBAF884224B7DDE007A4FCE /* LaunchScreen.storyboard */,
 				7FBAF887224B7DDE007A4FCE /* Info.plist */,
 			);
-			path = YXJCQPublicPod;
+			path = YXJCQPublicPodExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FBAF877224B7DDB007A4FCE /* YXJCQPublicPod */ = {
+		7FBAF877224B7DDB007A4FCE /* YXJCQPublicPodExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FBAF88A224B7DDE007A4FCE /* Build configuration list for PBXNativeTarget "YXJCQPublicPod" */;
+			buildConfigurationList = 7FBAF88A224B7DDE007A4FCE /* Build configuration list for PBXNativeTarget "YXJCQPublicPodExample" */;
 			buildPhases = (
 				DD5361AE1DABE7E600CE5D33 /* [CP] Check Pods Manifest.lock */,
 				7FBAF874224B7DDB007A4FCE /* Sources */,
 				7FBAF875224B7DDB007A4FCE /* Frameworks */,
 				7FBAF876224B7DDB007A4FCE /* Resources */,
 				6C164E090144AE148ECAA139 /* [CP] Embed Pods Frameworks */,
+				7F90777A27451C4600603302 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = YXJCQPublicPod;
+			name = YXJCQPublicPodExample;
 			productName = YXJCQPublicPod;
-			productReference = 7FBAF878224B7DDB007A4FCE /* YXJCQPublicPod.app */;
+			productReference = 7FBAF878224B7DDB007A4FCE /* YXJCQPublicPodExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7FBAF873224B7DDB007A4FCE /* Build configuration list for PBXProject "YXJCQPublicPod" */;
+			buildConfigurationList = 7FBAF873224B7DDB007A4FCE /* Build configuration list for PBXProject "YXJCQPublicPodExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FBAF877224B7DDB007A4FCE /* YXJCQPublicPod */,
+				7FBAF877224B7DDB007A4FCE /* YXJCQPublicPodExample */,
 			);
 		};
 /* End PBXProject section */
@@ -164,20 +195,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YXJCQPublicPod/Pods-YXJCQPublicPod-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YXJCQPublicPod/YXJCQPublicPod.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-YXJCQPublicPodExample/Pods-YXJCQPublicPodExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YXJCQPublicPod.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-YXJCQPublicPodExample/Pods-YXJCQPublicPodExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YXJCQPublicPod/Pods-YXJCQPublicPod-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YXJCQPublicPodExample/Pods-YXJCQPublicPodExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DD5361AE1DABE7E600CE5D33 /* [CP] Check Pods Manifest.lock */ = {
@@ -195,7 +221,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YXJCQPublicPod-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-YXJCQPublicPodExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -354,11 +380,11 @@
 		};
 		7FBAF88B224B7DDE007A4FCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 774B415D325BE4EEF1CE7FCC /* Pods-YXJCQPublicPod.debug.xcconfig */;
+			baseConfigurationReference = 92C6095B0F90067124E04A48 /* Pods-YXJCQPublicPodExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = YXJCQPublicPod/Info.plist;
+				INFOPLIST_FILE = YXJCQPublicPodExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,11 +398,11 @@
 		};
 		7FBAF88C224B7DDE007A4FCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6236D548D60714C50EF7451 /* Pods-YXJCQPublicPod.release.xcconfig */;
+			baseConfigurationReference = 72E9DFF299EF368AEFC98412 /* Pods-YXJCQPublicPodExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = YXJCQPublicPod/Info.plist;
+				INFOPLIST_FILE = YXJCQPublicPodExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,7 +417,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FBAF873224B7DDB007A4FCE /* Build configuration list for PBXProject "YXJCQPublicPod" */ = {
+		7FBAF873224B7DDB007A4FCE /* Build configuration list for PBXProject "YXJCQPublicPodExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FBAF888224B7DDE007A4FCE /* Debug */,
@@ -400,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FBAF88A224B7DDE007A4FCE /* Build configuration list for PBXNativeTarget "YXJCQPublicPod" */ = {
+		7FBAF88A224B7DDE007A4FCE /* Build configuration list for PBXNativeTarget "YXJCQPublicPodExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FBAF88B224B7DDE007A4FCE /* Debug */,

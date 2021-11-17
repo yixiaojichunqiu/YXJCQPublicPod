@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_YXJCQPublicPodVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_YXJCQPublicPodVersionString[];
+FOUNDATION_EXPORT double Pods_test0VersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_test0VersionString[];
 

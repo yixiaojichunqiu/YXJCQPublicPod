@@ -10,9 +10,7 @@
 #endif
 #endif
 
-#import "YXOC.h"
-#import "YXBridging.h"
 
-FOUNDATION_EXPORT double YXJCQPublicPodVersionNumber;
-FOUNDATION_EXPORT const unsigned char YXJCQPublicPodVersionString[];
+FOUNDATION_EXPORT double Pods_YXJCQPublicPodExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_YXJCQPublicPodExampleVersionString[];
 
