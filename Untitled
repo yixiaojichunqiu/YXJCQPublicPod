@@ -1,0 +1,36 @@
+pod trunk register name@gmail.com 'name' --verbose
+pod trunk me
+
+pod lib create YXJCQPublicPod
+
+What platform do you want to use?? [ iOS / macOS ]
+ > iOS
+
+What language do you want to use?? [ Swift / ObjC ]
+ > Swift
+
+Would you like to include a demo application with your library? [ Yes / No ]
+ > Yes
+
+Which testing frameworks will you use? [ Quick / None ]
+ > None
+
+Would you like to do view based testing? [ Yes / No ]
+ > Yes
+
+Running pod install on your new library.
+
+git remote add origin git@github.com:yixiaojichunqiu/YXJCQPublicPod.git
+
+用工具 提交 推送
+更改 提交 打tag
+
+PublicPod.podspec里内容参考demo
+
+pod lib lint --allow-warnings
+pod spec lint
+
+到目录
+pod trunk push YXJCQPublicPod.podspec --allow-warnings
+
+https://www.jianshu.com/p/001f5cf05b6d
